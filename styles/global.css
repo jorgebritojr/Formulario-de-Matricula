@@ -1,3 +1,12 @@
+
+/* Serve para zerar as margens do html */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definição das variáveis para serem utilizadas */
 :root {
   --font-family: 'Poppins', sans-serif;
   --text: 400 1rem/1,5 var(--font-family);
@@ -15,4 +24,8 @@
   --stroke-highlight: #F3541C;
   --semantic-error: #DC2626;
 
+}
+
+body{
+  overflow: hidden; /* para garantir que não haverá transbordamento / não ter rolagem*/
 }
